@@ -1,0 +1,7 @@
+.Sidebar{
+  width: 250px;
+  background: var( --color-primary);
+  padding: 1rem;
+   flex: 1;
+   background-color: aqua;
+}

@@ -1,0 +1,17 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main{
+  min-height: calc(100vh - 7rem);           
+  display: flex;
+  background-color: yellow;
+}
+.Main__content{
+  flex: 1;
+  background: var(--color-light-background);
+  padding: 1rem;
+}
+

@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    display:flex;
+    height: 4rem;
+    width: 100%;
+    background-color: var(--color-primary);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Header__logo{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.Header__logo img{
+     width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Header__menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: end;
+}
